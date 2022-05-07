@@ -12,7 +12,7 @@
             border: 1px solid #cecfd5;
   border-collapse: separate;
   border-spacing: 0;
-  color: lightgray;
+  color: black;
   font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 th,
@@ -39,7 +39,8 @@ th:last-child {
   border-top-right-radius: 5px;
 }
 tbody tr:nth-child(even) {
-  background: black;
+  background:#F4F6F7 ;
+  <!--  background: black; -->
 }
 td {
   border: 1px solid #cecfd5;
@@ -99,12 +100,20 @@ padding-bottom: 50px;
 
 
       <nav class="nav primary-nav tagline">
+        <form action="https://blog.naver.com/chaejh0221">
+         <button type="submit">블로그</button>
+      </form>
+<!--          <button onclick="https://blog.naver.com/chaejh0221';">블로그</button> -->
+      <!--    <button name="button">블로그</button> -->
+      </nav>
+
+      <nav class="nav primary-nav tagline">
         <ul>
           <li><a href="index.html">학원소개</a></li><!--
-          --><li><a href="speakers.html">커리큘럼</a></li><!--
-          --><li><a href="schedule.html">강사진</a></li><!--
-          --><li><a href="venue.html">강의시간표</a></li><!--
-          --><li><a href="register.html">오시는길</a></li>
+          --><li><a href="curriculum.html">커리큘럼</a></li><!--
+          --><li><a href="lecturer.html">강사진</a></li><!--
+          --><li><a href="schedule.html">강의시간표</a></li><!--
+          --><li><a href="direction.html">오시는길</a></li>
         </ul>
       </nav>
 
@@ -114,16 +123,17 @@ padding-bottom: 50px;
         </center>
       </div>
 
-
-
-
-
     </header>
+
+
+<section class="row" style = "center">
+  <div class="grid">  
 
 <center><h1> 강의시간표 </h1></center>
 
 <center>
 <table>
+
   <thead>
     <tr>
       <th scope="col" ></th>
@@ -135,6 +145,7 @@ padding-bottom: 50px;
       <th scope="col">토</th>
     </tr>
   </thead>
+
   <tbody>
 
     <tr>
@@ -254,6 +265,28 @@ padding-bottom: 50px;
 </table>  
 </center>
 
-</div>
+  </div>
+</section> 
+
+
+
+    <!-- Footer -->
+
+    <footer class="primary-footer container group">
+
+      <small>&copy; 경희무용학원</small>
+
+      <nav class="nav">
+        <ul>
+          <li><a href="index.html">학원소개</a></li><!--
+          --><li><a href="curriculum.html">커리큘럼</a></li><!--
+          --><li><a href="lecturer.html">강사진</a></li><!--
+          --><li><a href="schedule.html">강의시간표</a></li><!--
+          --><li><a href="register.html">오시는길</a></li>
+        </ul>
+      </nav>
+
+    </footer>
+
   </body>
 </html>
